@@ -4,7 +4,7 @@
   "author": "Vivek M",
   "license": "MIT",
   "description": "A collection of material design icons as Vue single file components",
-  "repository": "github:vivek1996/vue-material-design-icons.git",
+  "repository": "https://github.com/vivek1996/vue-material-design-icons.git",
   "keywords": [
     "vue",
     "material design icons",
