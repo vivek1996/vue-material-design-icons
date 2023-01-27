@@ -5,9 +5,9 @@ update_configs:
     directory: "/"
     update_schedule: "live"
     default_reviewers:
-      - "robcresswell"
+      - "vivek1996"
     default_assignees:
-      - "robcresswell"
+      - "vivek1996"
     version_requirement_updates: "increase_versions"
     commit_message:
       prefix: "feat"
