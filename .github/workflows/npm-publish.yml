@@ -6,7 +6,7 @@ name: Build
 on: workflow_dispatch
 
 jobs:
-  test:
+  Test:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -18,7 +18,7 @@ jobs:
       - run: npm test
 
   publish-npm:
-    needs: test
+    needs: Test
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
